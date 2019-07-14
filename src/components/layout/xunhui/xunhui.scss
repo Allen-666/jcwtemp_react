@@ -1,0 +1,120 @@
+.tour-show-wrap {
+    background: #fff;
+    padding: 0.4266666667rem 0.64rem 0;
+}
+
+.show-wrap {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.container .tour-show-wrap .show-item {
+    height: 6.4rem;
+    padding: 0.4266666667rem 0 0.64rem;
+}
+
+.show-wrap .show-item {
+    display: block;
+    height: 5.9733333333rem;
+    padding: 0.32rem 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.show-wrap .show-item .show-left {
+    width: 3.84rem;
+    height: 5.12rem;
+    margin-right: 0.5333333333rem;
+    position: relative;
+    border: 1px solid #f2f2f2;
+
+    background-size: 2.5386666667rem 2.5386666667rem;
+}
+
+.show-wrap .show-item .show-left img {
+    width: 3.84rem;
+    height: 5.12rem;
+    /* border: 1px solid #fff; */
+}
+
+img {
+    border: none;
+    max-width: 100%;
+    outline: none;
+}
+
+.show-wrap .show-item .show-right {
+    width: 10.3466666667rem;
+}
+
+.fl {
+    float: left;
+}
+
+.show-wrap .show-item .show-right .title {
+    min-height: 0.8533333333rem;
+    font-size: 0.5973333333rem;
+    padding-top: 0.1066666667rem;
+    margin-bottom: 0.2133333333rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a,
+input,
+select,
+textarea {
+    outline: 0;
+}
+
+.show-wrap .show-item .show-right .times {
+    font-size: 0.4693333333rem;
+    color: #999;
+    margin-bottom: 0.2133333333rem;
+}
+
+.show-wrap .show-item .city-wrap .item {
+    width: 2.8586666667rem;
+    height: 1.1093333333rem;
+    text-align: center;
+    font-size: 0.4693333333rem;
+    margin: 0 0.4266666667rem 0.2133333333rem 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 0.1066666667rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: Center;
+}
+
+.fl {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a,
+input,
+select,
+textarea {
+    outline: 0;
+}
+
+header {
+    position: fixed;
+    top: 0
+}
+

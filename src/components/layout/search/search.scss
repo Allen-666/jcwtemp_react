@@ -1,0 +1,286 @@
+
+.am-search am-search-start{
+    position: fixed!important;
+    top:0!important
+}
+.am-search {
+  
+    display: flex;
+    align-items: center;
+    height: 1.3rem !important;
+    padding: 0 8px;
+    overflow: hidden;
+    background-color: #efeff4;
+    
+}
+
+.am-search-input .am-search-synthetic-ph-placeholder {
+    color: #bbb;
+    font-size: 0.35rem !important;
+
+}
+
+.am-search-input {
+    // flex: 1 1;
+    position: relative;
+    width: 100%;
+    height: .73333rem !important;
+    overflow: hidden;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.5rem !important;
+}
+
+.am-search-cancel-show {
+    opacity: 1;
+}
+
+.am-search-cancel {
+    flex: none;
+    opacity: 0;
+    padding-left: 8px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    color: #108ee9;
+    text-align: right;
+}
+
+.am-search-input .am-search-synthetic-ph {
+    box-sizing: content-box;
+    z-index: 1;
+    height: 28px;
+    line-height: 28px;
+    width: 100%;
+    transition: width .3s;
+    display: block;
+    text-align: center;
+}
+
+.am-search-input input[type="search"] {
+    z-index: 2;
+    opacity: 0;
+    width: 100%;
+    text-align: left;
+    display: block;
+    color: #232323 !important;
+    height: 0.7rem !important;
+    font-size: .34667rem !important;
+    background-color: transparent;
+    border: 0;
+}
+
+.am-search-cancel {
+    flex: none;
+    opacity: 0;
+    padding-left: 8px;
+    height: 44px;
+    line-height: 44px;
+    font-size: .37333rem !important;
+    color: #666 !important;
+    text-align: right;
+}
+
+.am-search-input .am-search-synthetic-ph {
+    box-sizing: content-box;
+    z-index: 1;
+    height: 2rem !important;
+    line-height: 0.6rem !important;
+    width: 100%;
+    transition: width .3s;
+    display: block;
+    text-align: center;
+}
+
+.am-search-input .am-search-clear {
+    height: 0.5rem !important;
+    width: 0.7rem !important;
+    background-size: 0.4rem !important;
+}
+
+.am-search-input .am-search-synthetic-ph-icon {
+    margin-top: 0.15rem;
+    height: 0.4rem !important;
+    width: 0.7rem !important;
+    background-repeat: 0.5rem 0.5rem !important;
+    background-size: 0.4rem !important;
+
+}
+
+.am-search.am-search-start .am-search-input input[type="search"] {
+    opacity: 1;
+    padding: 0 28px 0 52px !important;
+}
+
+.h1 {
+    font-size: .34667rem;
+    font-weight: 400;
+    color: #666;
+    margin-top: 0.8rem;
+    display: block;
+    height: .53333rem;
+
+    margin-left: 0.5rem
+}
+
+.ul {
+    margin-top: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: .53333rem;
+
+    li {
+        margin-left: 0.5rem;
+        font-family: PingFang-SC-Medium;
+        padding: 0 .66667rem;
+        height: .93333rem;
+        line-height: .93333rem;
+        font-size: .37333rem;
+        color: #232323;
+        background-color: #fff;
+        border-radius: .08rem;
+        margin-right: .34667rem;
+        margin-bottom: .34667rem;
+    }
+}
+
+
+
+
+
+
+ul {
+    margin-top: 0.55rem;
+    li {
+        display: flex;
+        margin-bottom: .86667rem;
+        position: relative;
+
+        .show-icon {
+            width: 2.93333rem;
+            height: 4rem;
+            border-radius: .10667rem;
+            border: 1px solid #ebebeb;
+            position: relative;
+            overflow: hidden;
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+            }
+
+            .juooo_sponsor {
+                span {
+                    position: absolute;
+                    left: .10667rem;
+                    top: -.02667rem;
+                    width: .77333rem;
+                    height: .93333rem;
+                    display: block;
+                    /* background: url(); */
+                    background-size: 100%;
+                }
+            }
+        }
+
+        .item-desc {
+            flex: 1;
+            margin-left: .4rem;
+            color: #232323;
+            padding-top: .13333rem;
+
+            .show-date {
+                font-size: .32rem;
+                height: .64rem;
+                line-height: .64rem;
+                letter-spacing: 1px;
+                color: #666;
+
+                strong {
+                    color: #232323;
+                    font-size: .42667rem;
+                }
+            }
+
+            a {
+                display: block;
+
+                h3 {
+                    width: 100%;
+                    font-size: .45333rem;
+                    line-height: .6rem;
+                    min-height: .6rem;
+                    max-height: 1.2rem;
+                    margin-top: .33333rem;
+                    color: #232323;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    word-break: break-all;
+                    font-weight: bold;
+                }
+            }
+
+            p {
+                margin-top: .33333rem;
+                width: 5.33333rem;
+                font-size: .32rem;
+                height: .64rem;
+                line-height: .64rem;
+                color: #666;
+            }
+
+            .price {
+                font-size: .29333rem;
+                color: #999;
+                height: .48rem;
+                line-height: .48rem;
+                margin-top: .26667rem;
+
+              >.c_ff6 {
+                  
+                    color: #ff6743 !important;
+                }
+            }
+        }
+    }
+}
+
+.btn-more {
+    display: block;
+    margin: 0 auto;
+    width: 4.24rem;
+    height: .96rem;
+    line-height: .96rem;
+    border-radius: .10667rem;
+    border: 1px solid #ff6743;
+    font-size: .4rem;
+    color: #ff6743;
+
+    img {
+        width: .13333rem;
+        height: .26667rem;
+        margin-left: .13333rem;
+        vertical-align: initial;
+    }
+}
+.h3 /deep/.c_ff6 {
+    font-size: .49333rem;
+    letter-spacing: 0;
+    margin-right: .13333rem;
+    font-weight: bolder;
+    color: #ff6743 !important;
+}

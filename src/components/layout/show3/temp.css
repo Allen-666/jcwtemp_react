@@ -1,0 +1,454 @@
+.vip-container {
+  padding: 0.64rem; }
+  .vip-container .card-box .use {
+    border-bottom: none; }
+  .vip-container .buy-box .buy {
+    font-size: 0.55467rem;
+    width: 3.62667rem;
+    height: 1.19467rem;
+    line-height: 1.19467rem;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 0.128rem;
+    margin-top: -0.08533rem; }
+    .card-wrap .item {
+      width: 14.50667rem;
+      height: 7.68rem;
+      margin: 0 auto 0.42667rem;
+      position: relative;
+      overflow: hidden;
+      border-radius: 0.42667rem; }
+      .card-wrap .item img {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0.3;
+        z-index: -1; }
+    
+    .vip-footer {
+      display: block;
+      height: 2.13333rem;
+      z-index: 666;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      background: rgba(255, 255, 255, 0.95); }
+      .vip-footer .bind-btn {
+        display: block;
+        width: 100%;
+        height: 2.13333rem;
+        line-height: 2.13333rem;
+        text-align: center;
+        font-size: 0.68267rem;
+        color: #e7a93c;
+        z-index: 200;
+        font-weight: bold; }
+    
+    .card-box {
+      width: 100%;
+      height: 100%;
+      padding: 0.9rem 0.8rem 0;
+      color: #fff; 
+      overflow: hidden;}
+      .card-box .card-discount{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 2rem solid #f53935;
+        border-right: 2rem solid transparent;
+      }
+      .card-box label{
+        position: absolute;
+        top: 0.3rem;
+        left: 0.2rem;
+        transform:rotate(-50deg);
+        -ms-transform:rotate(-50deg); 	/* IE 9 */
+        -moz-transform:rotate(-50deg); 	/* Firefox */
+        -webkit-transform:rotate(-50deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-50deg); 
+      }
+      .card-box .title {
+        padding: 0 0.10667rem;
+        margin-bottom: 0.53333rem; }
+        .card-box .title .txt {
+          font-size: 0.55467rem; }
+      .card-box .card-name {
+        font-size: 0.768rem;
+        font-weight: bold; }
+      .card-box .card-hint{
+        display:inline-block;
+        max-width: 4.8rem;
+        border: 1px solid #f53833;
+        padding: 0.1rem 0.5rem 0.12rem;
+        border-radius: 1rem;
+        margin-left:0.5rem;
+        font-size: 0.42667rem;
+        background: rgba(245,56,51,0.3);
+        vertical-align: text-bottom;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        }
+      .card-box .buy-box,
+      .card-box .category,
+      .card-box .use {
+        padding: 0 0.10667rem; }
+      .card-box .category {
+        margin-bottom: 0.32rem;
+        height: 0.92rem;
+        overflow: hidden; }
+      .card-box .cate-list {
+        margin-bottom: 0.17067rem;
+        height: 0.85333rem;
+        line-height: 0.85333rem;
+        padding: 0 0.21333rem;
+        font-size: 0.42667rem;
+        margin-right: 0.256rem;
+        border-radius: 0.10667rem; }
+      .card-box .use {
+        padding-bottom: 0.32rem;
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.5); }
+      .card-box .use-wrap {
+        margin-top: 0.98133rem; }
+      .card-box .use-area {
+        font-size: 0.55467rem; }
+      .card-box .validity,
+      .card-box .use-time {
+        margin-top: 0.21333rem;
+        font-size: 0.46933rem; }
+      .card-box .buy-box {
+        padding-top: 1.26267rem; }
+      .card-box .yuan-icon {
+        font-size: 0.55467rem; }
+      .card-box .val-num {
+        font-size: 0.85333rem; }
+      .card-box .buy-card-btn,
+      .card-box .buy-ticket-btn {
+        float: left;
+        width: 3.41333rem;
+        height: 1.19467rem;
+        text-align: center;
+        line-height: 1.19467rem;
+        font-size: 0.55467rem;
+        border: 2px solid rgba(255, 255, 255, 0.8);
+        border-radius: 0.17067rem; }
+      .card-box .buy-card-btn {
+        margin-right: 0.42667rem; }
+      .card-box .icon-yuan {
+        font-size: 0.512rem;
+        color: #fff; }
+      .card-box .card-type {
+        position: absolute;
+        top: 0.85333rem;
+        right: 0.64rem;
+        padding: 0.08533rem 0.34133rem;
+        background-color: rgba(0, 0, 0, 0.06);
+        font-size: 0.46933rem;
+        border-radius: 0.08533rem; }
+      .card-box .recharge-btn {
+        display: inline-block;
+        width: 2.77333rem;
+        height: 0.93867rem;
+        line-height: 0.93867rem;
+        border: 1px solid #fff;
+        border-radius: 0.93867rem;
+        text-align: center;
+        margin-top: -0.064rem; }
+      .card-box .card-money {
+        position: absolute;
+        right: 0;
+        bottom: 2.38933rem;
+        font-size: 0.512rem;
+        height: 1.19467rem;
+        line-height: 1.19467rem;
+        padding: 0 0.64rem;
+        border-top-left-radius: 0.64rem;
+        border-bottom-left-radius: 0.64rem;
+        background-color: rgba(0, 0, 0, 0.06); }
+      .card-box .money {
+        font-style: normal;
+        font-size: 0.64rem; }
+    
+    .family-card .mask {
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5; }
+    .family-card .card-box {
+      background: rgba(235, 165, 45, 0.8);
+      position: relative;
+      z-index: 9; }
+      .family-card .card-box .cate-list {
+        background: rgba(255, 255, 255, 0.2); }
+    
+    .experience-card .mask {
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5; }
+    .experience-card .card-box {
+      background: rgba(235, 165, 45, 0.8);
+      position: relative;
+      z-index: 9; }
+      .experience-card .card-box .cate-list {
+        background: rgba(255, 255, 255, 0.1); }
+    
+    .vip-card .mask {
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5; }
+    .vip-card .card-box {
+      background: rgba(235, 165, 45, 0.8);
+      position: relative;
+      z-index: 9; }
+      .vip-card .card-box .cate-list {
+        background: rgba(255, 255, 255, 0.1); }
+    
+    .det-card-wrap {
+      margin-top: 1.87733rem;
+      padding: 0.64rem 0; }
+      .det-card-wrap .card-box .category {
+        margin-bottom: 1.92rem; }
+      .det-card-wrap .card-box .use {
+        border-bottom: none; }
+    
+    .city-fixed {
+      width: 100%;
+      height: 1.70667rem;
+      padding-left: 0.64rem;
+      background: #fff;
+      border-bottom: 1px solid #e8e8e8;
+      position: fixed;
+      top: 1.87733rem;
+      left: 0;
+      z-index: 99;
+      display: none; }
+      .city-fixed.active {
+        display: block; }
+        .city-fixed .txt {
+          display: block;
+          line-height: 1.70667rem;
+          padding-left: 0.32rem;
+          position: relative; }
+          .city-fixed .txt:after {
+            content: '';
+            display: block;
+            width: 0.08533rem;
+            height: 0.55467rem;
+            position: absolute;
+            left: 0;
+            top: 0.59733rem;
+       
+            background-size: 100%; }
+        .city-fixed .city-box {
+          width: 2.38933rem;
+          height: 1.06667rem;
+          line-height: 1.06667rem;
+          position: absolute;
+          top: 0.32rem;
+          right: 0.64rem;
+          font-size: 0.512rem;
+          color: #333;
+          background: #f5f5f5;
+          border: 1px solid #e6e6e6;
+          border-radius: 0.10667rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          -ms-justify-content: center;
+          -moz-justify-content: center;
+          justify-content: center;
+          align-content: center; }
+          .city-fixed .city-box .icon-down {
+            width: 0.34133rem;
+            height: 0.21333rem;
+            margin: 0.42667rem 0 0 0.21333rem;
+          
+            background-size: 100% 100%; }
+      
+      .row {
+        background: #fff;
+        margin-bottom: 0.42667rem;
+        padding: 0 0.64rem 0.34133rem;
+        /*     .eq-list {
+            margin-bottom: 15px/$ppr;
+            font-size: 24px/$ppr;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        } */ }
+        .row.support-row {
+          margin-bottom: 2.77333rem; }
+        .row .title {
+          height: 1.70667rem;
+          line-height: 1.70667rem;
+          padding-left: 0.32rem;
+          position: relative;
+          font-size: 0.55467rem;
+          color: #333;
+          position: relative; }
+          .row .title:after {
+            content: '';
+            display: block;
+            width: 0.08533rem;
+            height: 0.512rem;
+            position: absolute;
+            left: 0;
+            top: 0.59733rem;
+          
+            background-size: 100%; }
+        .row .equity-ul {
+          height: 1.49333rem;
+          overflow: hidden;
+          transition: height 0.2s ease-in-out;
+          word-break: break-all; }
+          .row .equity-ul.spread {
+            height: auto; }
+          .row .equity-ul > p {
+            margin-bottom: 0.32rem;
+            font-size: 0.512rem; }
+            .row .equity-ul > p:last-child {
+              margin-bottom: 0; }
+        .row .unfold-btn {
+          width: 3.2rem;
+          margin: 0 auto;
+          height: 1.28rem;
+          font-size: 0.512rem;
+          color: #999;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          -ms-justify-content: center;
+          -moz-justify-content: center;
+          justify-content: center;
+          /* @include flex-justify-content(center,center);
+          @include flex-align-item(center); */ }
+          .row .unfold-btn .icon-down {
+            display: block;
+            width: 0.384rem;
+            height: 0.23467rem;
+            margin-left: 0.10667rem;
+         
+            background-size: 100%; }
+          .row .unfold-btn.active .icon-down {
+            transform: rotate(180deg); }
+          .row .unfold-btn .icon-down,
+          .row .unfold-btn .txt {
+            margin-top: 0.21333rem; }
+        .row .notice-txt {
+          /*         font-size: 24px/$ppr;
+          line-height: 35px/$ppr; */
+          height: 1.49333rem;
+          overflow: hidden;
+          transition: height 0.2s ease-in-out; }
+          .row .notice-txt.spread {
+            height: auto; }
+            .row .apply-city {
+              /*         font-size: 24px/$ppr;
+              line-height: 35px/$ppr; */
+              height: 1.536rem;
+              overflow: hidden;
+              transition: height 0.2s ease-in-out; }
+              .row .apply-city.spread {
+                height: auto; }
+            .row .range-box {
+              padding-bottom: 0.256rem;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              flex-wrap: wrap; }
+              .row .range-box .range-list {
+                display: block;
+                padding: 0 0.21333rem;
+                margin-right: 0.256rem;
+                margin-bottom: 0.21333rem;
+                height: 0.85333rem;
+                line-height: 0.85333rem;
+                font-size: 0.42667rem;
+                color: #de9922;
+                border: 1px solid #de9922;
+                border-radius: 0.10667rem; }
+            .row .city-box {
+              width: 2.38933rem;
+              height: 1.06667rem;
+              line-height: 1.06667rem;
+              position: absolute;
+              top: 0.384rem;
+              right: 0;
+              font-size: 0.512rem;
+              color: #333;
+              background: #f5f5f5;
+              border: 1px solid #e6e6e6;
+              border-radius: 0.10667rem;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              -ms-justify-content: center;
+              -moz-justify-content: center;
+              justify-content: center;
+              align-content: center; }
+              .row .city-box .icon-down {
+                width: 0.34133rem;
+                height: 0.21333rem;
+                margin: 0.42667rem 0 0 0.21333rem;
+              
+                background-size: 100% 100%; }
+            .row .inner-wrap {
+              word-wrap: break-word;
+              font-size: 0.512rem;
+              line-height: 0.74667rem; }
+          
+          .show-wrap {
+            width: 100%; }
+            .show-wrap .show-item {
+              display: block;
+              height: 5.97333rem;
+              padding: 0.32rem 0;
+              border-bottom: 1px solid #e6e6e6; }
+              .show-wrap .show-item:first-child {
+                padding-top: 0;
+                height: 5.65333rem; }
+              .show-wrap .show-item:last-child {
+                border-bottom: 0 none; }
+              .show-wrap .show-item .show-left {
+                width: 3.84rem;
+                height: 5.12rem;
+                margin-right: 0.53333rem;
+                position: relative;
+                border: 1px solid #f2f2f2;
+            
+                background-size: 2.53867rem 2.53867rem; }
+                .show-wrap .show-item .show-left img {
+                  width: 3.84rem;
+                  height: 5.12rem;
+                  border: 1px solid #fff; }
+              .show-wrap .show-item .show-right {
+                width: 10.34667rem; }
